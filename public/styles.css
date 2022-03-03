@@ -1,0 +1,76 @@
+:root {
+    --main-clr: #2a2438;
+    --secondary-clr: #352f44;
+    --secondary-accent-clr: #5c5470;
+    --main-accent-clr: #dbd8e3;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: var(--main-accent-clr);
+    background-color: var(--main-clr);
+} 
+h1{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+header nav a{
+    color: var(--main-accent-clr);
+}
+
+/**/
+.card{
+    display: inline-block;
+    padding: .8rem;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+}
+.card-upper-info{
+    gap: .5rem;
+    display: flex;
+    }
+h2{
+    font-weight: bold;
+}
+    /*image*/
+.card-img{
+    width: 50px;
+    height: 50px;
+}
+    /**middle-info*/
+.dolar-sign{
+    color: green;
+    font-size: 1.8rem;
+}
+.card-rank-info,
+.price-info{
+    font-size: 1.5rem;
+}
+.card-rank-info{
+    color: gray;
+}
+.card-middle-info{
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    /*card holder*/
+#top-ten{
+    margin: 1rem;
+    color: var(--secondary-clr);
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
